@@ -1,0 +1,219 @@
+
+html, body{
+	font-family: 'Roboto', sans-serif;
+	height:100%;
+	width:100%;
+}
+
+
+/******************************************************************************
+Header
+******************************************************************************/
+/*Set the header height here*/
+#header, 
+#header .logo,
+#menu,
+#menu a{
+	height:80px;
+}
+
+
+#header{
+	background-color:white;
+	position:relative;
+	border-bottom:1px solid #eeeeee;
+	overflow:hidden;
+}
+
+.home #header{
+	border:none;
+}
+
+#header .logo{
+	background-image:url(images/logo-dark.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+	width:200px;
+
+	display:inline-block;
+}
+
+#header .subheading{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:16px;
+	margin-left:20px;
+	color:#bdbdbd;
+}
+
+#menu{
+	float:right;
+}
+
+#menu a{
+	color:black;
+	font-size:16px;
+	line-height:80px;
+	display:inline-block;
+	margin-left:20px;
+}
+
+#menu a:hover{
+	color:#71cfaf;
+	border-bottom:2px solid #71cfaf;
+}
+
+
+/******************************************************************************
+Footer
+******************************************************************************/
+
+#footer{
+	background-color:#1d1d1d;
+	color:white;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:10pt;
+}
+
+#footer .logo{
+	background-image:url(images/logo-light.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+	width:200px;
+	height:40px;
+	margin:0 auto;
+	float:right;
+}
+
+#footer a{
+	color:white;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
+
+
+/******************************************************************************
+Splash
+******************************************************************************/
+
+.splash{
+	width:100%;
+	height:60%;
+	
+	background-repeat: no-repeat;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+	background-position: center center;
+
+	position:relative;
+}
+
+a:hover .title span{
+	text-decoration: underline;
+}
+.title{
+	position:absolute;
+	bottom:20px;
+}
+
+.title span{
+	background:white;
+	color:black;
+	font-size:2em;
+	line-height: 1.2em;
+}
+
+
+/******************************************************************************
+Artwork grid
+******************************************************************************/
+
+.artwork{
+	background-repeat: no-repeat;
+	overflow:hidden;
+
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+	position:relative;
+}
+
+.artwork.cover{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.row{
+	margin-bottom:0px;
+}
+
+.row .col{
+	margin-bottom:20px;
+}
+.row.first{
+	margin-top:20px;
+}
+
+
+.artwork .title{
+	left:20px;
+}
+
+.artwork .title span{
+	font-size:1.5em;
+}
+
+
+
+
+/******************************************************************************
+
+******************************************************************************/
+
+.infographic{
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+
+
+
+i.twitter{
+	display:inline-block;
+	background-image:url(images/twitter.png);
+	width:24px;
+	height:24px;
+	margin-bottom:-5px;
+}
+a:hover i.twitter{
+	background-image:url(images/twitter-hover.png);
+}
+
+a.icon:hover{
+	border:none !important;
+}
