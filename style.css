@@ -193,13 +193,29 @@ Artwork grid
 
 ******************************************************************************/
 
+/* these styles are for the demo, but are not required for the plugin */
+.zoom {
+	display:inline-block;
+	position: relative;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.zoom img {
+	display: block;
+}
+
+.zoom img::selection { background-color: transparent; }
+
+#ex2 img:hover { cursor: url(images/grab.cur), default; }
+#ex2 img:active { cursor: url(images/grabbed.cur), default; }
+
 .infographic{
 	width:100%;
 	height:auto;
 	display:block;
 	margin:0 auto;
-	margin-top:20px;
-	margin-bottom:20px;
+	
 }
 
 
